@@ -1,82 +1,58 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>3D Printed Wall Decor Store</title>
-    <link rel="stylesheet" href="styles.css">
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Podium Prints</title>
+  <style>
+    /* CSS styles for the website */
+    /* Add your custom CSS styles here */
+  </style>
 </head>
 <body>
-    <header>
-        <div class="container">
-            <h1>3D Printed Wall Decor Store</h1>
-            <nav>
-                <ul>
-                    <li><a href="#">Home</a></li>
-                    <li><a href="#">About Us</a></li>
-                    <li><a href="#">Shop</a></li>
-                    <li><a href="#">Contact</a></li>
-                </ul>
-            </nav>
-        </div>
-    </header>
-    <main>
-        <div class="hero">
-            <div class="container">
-                <h2>Welcome to Our Store</h2>
-                <p>Discover unique 3D printed wall decor pieces crafted with passion and precision.</p>
-            </div>
-        </div>
-        <section class="products">
-            <div class="container">
-                <h2>Featured Products</h2>
-                <div class="product">
-                    <img src="product1.jpg" alt="Modern Geometric Wall Art">
-                    <div class="info">
-                        <h3>Modern Geometric Wall Art</h3>
-                        <p class="description">Elevate your space with this modern geometric wall art piece. Made with eco-friendly PLA filament and available in various colors.</p>
-                        <p class="price">$49.99</p>
-                        <button class="btn">Add to Cart</button>
-                    </div>
-                </div>
-                <div class="product">
-                    <img src="product2.jpg" alt="Abstract Nature Sculpture">
-                    <div class="info">
-                        <h3>Abstract Nature Sculpture</h3>
-                        <p class="description">Bring the serenity of nature indoors with this captivating abstract sculpture. Each piece is meticulously crafted to capture the essence of the natural world.</p>
-                        <p class="price">$59.99</p>
-                        <button class="btn">Add to Cart</button>
-                    </div>
-                </div>
-                <!-- Add more product sections as needed -->
-            </div>
-        </section>
-    </main>
-    <footer>
-        <div class="container">
-            <div class="footer-content">
-                <div class="footer-column">
-                    <h3>About Us</h3>
-                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nullam tristique justo in justo semper, id rutrum eros hendrerit.</p>
-                </div>
-                <div class="footer-column">
-                    <h3>Shop Categories</h3>
-                    <ul>
-                        <li><a href="#">Modern Art</a></li>
-                        <li><a href="#">Nature Inspired</a></li>
-                        <li><a href="#">Abstract Designs</a></li>
-                    </ul>
-                </div>
-                <div class="footer-column">
-                    <h3>Contact Us</h3>
-                    <p>Email: info@example.com</p>
-                    <p>Phone: 123-456-7890</p>
-                </div>
-            </div>
-            <div class="footer-bottom">
-                <p>&copy; 2024 3D Printed Wall Decor Store. All rights reserved.</p>
-            </div>
-        </div>
-    </footer>
+  <!-- Navigation bar -->
+  <nav>
+    <ul>
+      <li><a href="#home">Home</a></li>
+      <li><a href="#catalog">Catalog</a></li>
+      <li><a href="#contact">Contact</a></li>
+    </ul>
+  </nav>
+
+  <!-- Homepage -->
+  <section id="home">
+    <h1>Welcome to Podium Prints</h1>
+    <!-- Add banner image and promotional content here -->
+  </section>
+
+  <!-- Catalog Page -->
+  <section id="catalog">
+    <h2>Our Products</h2>
+    <div class="product">
+      <img src="product1.jpg" alt="Product 1">
+      <h3>Product 1 Name</h3>
+      <p>Description of Product 1</p>
+      <button>Add to Cart</button>
+    </div>
+    <!-- Repeat the above structure for each product -->
+  </section>
+
+  <!-- Contact Page -->
+  <section id="contact">
+    <h2>Contact Us</h2>
+    <form action="mailto:your@email.com" method="post" enctype="text/plain">
+      <label for="name">Name:</label>
+      <input type="text" id="name" name="name" required><br>
+      <label for="email">Email:</label>
+      <input type="email" id="email" name="email" required><br>
+      <label for="subject">Subject:</label>
+      <input type="text" id="subject" name="subject" required><br>
+      <label for="message">Message:</label><br>
+      <textarea id="message" name="message" rows="4" required></textarea><br>
+      <input type="submit" value="Send">
+    </form>
+    <p>You can also email us at <a href="mailto:your@email.com">your@email.com</a>.</p>
+  </section>
 </body>
 </html>
+
